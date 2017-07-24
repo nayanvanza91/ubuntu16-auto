@@ -11,6 +11,7 @@ RUN apt-get update \
     && apt-get install -y software-properties-common \
     && apt-get install -y python-software-properties \
     && apt-get install -y build-essential \
+    && apt-get install -y rsyslog \
     && apt-get install -y vim \
     && apt-get install -y tcl8.5 \
     && apt-get install -y cron \
